@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kenya_vat *.css
+recursive-include kenya_vat *.csv
+recursive-include kenya_vat *.html
+recursive-include kenya_vat *.ico
+recursive-include kenya_vat *.js
+recursive-include kenya_vat *.json
+recursive-include kenya_vat *.md
+recursive-include kenya_vat *.png
+recursive-include kenya_vat *.py
+recursive-include kenya_vat *.svg
+recursive-include kenya_vat *.txt
+recursive-exclude kenya_vat *.pyc
